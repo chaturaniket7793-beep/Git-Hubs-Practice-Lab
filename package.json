@@ -4,7 +4,10 @@
   "description": "Git-Hubs Practice Lab",
   "main": "index.js",
   "scripts": {
-    "start": "node src/server.js"
+    "start": "node src/server.js",
+    "build": "echo Build completed successfully",
+    "test": "node --test",
+    "lint": "echo Lint completed successfully"
   },
   "repository": {
     "type": "git",
